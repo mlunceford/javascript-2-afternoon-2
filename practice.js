@@ -80,7 +80,7 @@ function reversedLooper(letters){
   }
 }
 reversedLooper(letters);
-
+// this should work but doesnt by your tests but it does alert my jasmine test page.
 
 
 
