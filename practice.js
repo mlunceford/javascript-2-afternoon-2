@@ -235,7 +235,7 @@ function addItem(myGroceryList, item) {
 //Code Here
 function maker() {
   let array = [];
-  for (let i = 1; i < 215; i++) {
+  for (let i = 1; i <= 215; i++) {
     array.push(i)
   }
   return array
@@ -305,7 +305,7 @@ const longer = (arr1, arr2) => {
 */
 
 //Code Here
-// const both = (arr1. arr2) => {
+// const both = (arr1, arr2) => {
 
 // }
 
@@ -348,7 +348,7 @@ var colt = {
 */
 
 //Code Here
-devMountainEmployees.push(tyler, cahlan, ryan, colt);
+devMountainEmployees.push(joe, cahlan, ryan, colt);
 console.log(devMountainEmployees.length)
 
 
@@ -366,11 +366,10 @@ function removeCahlan() {
       devMountainEmployees.splice(i, 1);
     }
   } 
- 
-
+  console.log(devMountainEmployees)
 }
 
-
+removeCahlan()
 
 
 ////////// PROBLEM 13 //////////
