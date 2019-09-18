@@ -305,10 +305,18 @@ const longer = (arr1, arr2) => {
 */
 
 //Code Here
-// const both = (arr1, arr2) => {
+const both = (arr1, arr2) => {
+  let newarr = [];
+  for (let i = 0; i < arr1.length; i++) {
+    for(let j = arr2.length; j >= 0; j--){
+      if(arr1[i] === arr2[j]){
+      newarr.push(arr1[i])
 
-// }
-
+      }
+    }
+  }
+  return newarr
+}
 
 
 ////////// PROBLEM 12 //////////
